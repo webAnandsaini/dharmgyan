@@ -1,0 +1,28 @@
+*{@apply m-0 p-0 font-roboto box-border;}
+body{@apply text-lg/['22px'] text-primary;}
+
+.container-l{
+    @apply px-[15px] md:ml-[max(0px,(100%-760px)/2)] lg:ml-[max(0px,(100%-1000px)/2)] xl:ml-[max(0px,(100%-1280px)/2)] 2xl:ml-[max(0px,(100%-1440px)/2)];
+}
+
+.section-header{@apply flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3;
+    h2{@apply text-h4 lg:text-h2 before:content-normal before:w-1 before:h-7 lg:before:h-8 before:bg-red-light before:absolute pl-3 before:mt-1.5 before:-ml-3;}
+}
+.hover-bg-gradient{background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(74, 73, 72, 0.775) 52.5%, #211F1E 100%);}
+.custom-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+Form{
+    input, textarea{
+        @apply w-full border border-gray-400 mb-4 disabled:border-red-light text-base py-1 px-2 rounded-md focus:border-sky-400 focus:outline-none;
+    }
+    textarea{
+        @apply min-h-[100px];
+    }
+}
+
+.genral-content{
+    p+p{@apply mt-4;}
+}

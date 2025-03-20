@@ -1,0 +1,9 @@
+.button{
+    @apply text-xl/[26px] text-secondary border-2 disabled:cursor-not-allowed border-secondary rounded-md min-w-28 md:min-w-[147px] py-2 md:py-2.5 px-5.5 inline-block text-center text-lg/5;
+    &.fill{
+        @apply bg-secondary text-white;
+    }
+    &.sm{
+        @apply py-2.5 text-size-15 min-w-[130px];
+    }
+}
