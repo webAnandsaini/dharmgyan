@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-// import FooterLogo from '../assets/images/footerLogo.svg';
+import FooterLogo from '../assets/images/footerLogo.svg';
 import redBorderBg from '../assets/images/redBorderBg.svg';
 import RedMandir from '../assets/images/RedMandir.svg';
 import Link from "next/link";
