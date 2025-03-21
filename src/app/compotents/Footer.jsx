@@ -13,7 +13,7 @@ const Footer = () => {
             <Image src={redBorderBg} width={1920} height={78} alt="Footer Border" className="absolute left-0 bottom-full" />
             <Image src={RedMandir} width={793} height={232} alt="Footer Mandir" className="absolute left-0 bottom-full sm:-top-[193px] lg:-top-[240px] w-[650px] lg:w-[793px]" />
             <div className="container flex flex-col justify-center">
-                {/* <Link href={'/'} className="text-center mx-auto inline-block"><Image src={FooterLogo} width={238} height={50} alt="Dharmgyan" className="mx-auto" /></Link> */}
+                <Link href={'/'} className="text-center mx-auto inline-block"><Image src={FooterLogo} width={238} height={50} alt="Dharmgyan" className="mx-auto" /></Link>
 
                 <ul className="secondary-menus">
                     <li><Link href="/mandirs">Religious place </Link></li>
